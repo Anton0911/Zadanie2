@@ -1,14 +1,15 @@
 public class Main {
     public static void main(String[] args) {
 
-        int x = 300;
-        int popolnenie = 1200;
-        int bonys = popolnenie / 100;
-        int i = x + popolnenie;
-        if (popolnenie > 1000) {
-            System.out.println(bonys+i);}
+
+        int score = 300;
+        int replenishment = 1200;
+        int bonys = replenishment / 100;
+        int result = score + replenishment;
+        if (replenishment > 1000) {
+            System.out.println(bonys+result);}
         else {
-            System.out.println(i);}
+            System.out.println(result);}
 
 
 
